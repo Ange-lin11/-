@@ -45,12 +45,6 @@ def mult_array(input):
     mult = 1
     for i in s2:
         mult *= i
-    if mult > 1000 ** 10:
-        print("В файле:")
-        print(*s2)
-        print("Произведение:","Сумма слишком велика")
-        print()
-        return mult
     print("В файле:")
     print(*s2)
     print("Произведение:", mult)
