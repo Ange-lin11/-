@@ -24,8 +24,8 @@ class TestCalculator(unittest.TestCase):
         main.write_file(input, [12, 10000, 888, 3753 ** 3757, 0])
         self.assertEqual(main.mult_array(input), 0)
 
-        main.write_file(input, [1000 ** 10, 100 ** 100, 1000000 ** 6, 10])
-        self.assertEqual(main.mult_array(input), 1000 ** 10 * 100 ** 100 * 1000000 ** 6 * 10)
+        main.write_file(input, [1000 ** 10, 100 ** 100, 1000 ** 6, 10])
+        self.assertEqual(main.mult_array(input), Произведение слишком велико)
 
     def test_min(self):
 
